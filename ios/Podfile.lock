@@ -2,10 +2,16 @@ PODS:
   - Capacitor (2.4.7):
     - CapacitorCordova
   - CapacitorCordova (2.4.7)
+  - KISSmetrics-iOS-SDK (2.3.1)
 
 DEPENDENCIES:
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - KISSmetrics-iOS-SDK (~> 2.3.1)
+
+SPEC REPOS:
+  trunk:
+    - KISSmetrics-iOS-SDK
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -16,7 +22,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Capacitor: 4cd7b342d5a15b1f6f333d687358953afd7b2d8b
   CapacitorCordova: 2c9d6e28d9d86c4da087fa2c3537c1841954bb12
+  KISSmetrics-iOS-SDK: cd21a73b6ff9292f4e5372b0ad31b793870bf1fa
 
-PODFILE CHECKSUM: e66d6fa04b0daaf06d8498d39637adf77139c716
+PODFILE CHECKSUM: d215fea81b64b9d91407550e79e4ebb214e783c4
 
 COCOAPODS: 1.10.0
