@@ -1,6 +1,6 @@
 {
   "name": "capacitor-kissmetrics-plugin",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Native capacitor plugin for adding support for Kissmetrics tracking platform.",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",

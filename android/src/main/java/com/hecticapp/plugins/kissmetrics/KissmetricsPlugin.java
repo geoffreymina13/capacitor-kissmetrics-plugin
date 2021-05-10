@@ -23,6 +23,12 @@ public class KissmetricsPlugin extends Plugin {
 
     private static String tag = "KMPlugin";
 
+    @Override()
+    public void load() {
+        System.out.println("Loading the KMPlugin");
+        super.load();
+    }
+
     @PluginMethod
     public void initialize(PluginCall call) {
         String key = call.getString("key");
@@ -36,6 +42,8 @@ public class KissmetricsPlugin extends Plugin {
     public void identify(PluginCall call){
         String email = call.getString("email");
         KISSmetricsAPI.sharedAPI().identify(email);
+        KISSmetricsAPI.sharedAPI().autoSetAppProperties();
+        KISSmetricsAPI.sharedAPI().autoSetHardwareProperties();
 
         Log.d(tag,"Identified as " + email);
         call.success();
