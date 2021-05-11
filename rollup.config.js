@@ -2,6 +2,8 @@ import nodeResolve from '@rollup/plugin-node-resolve';
 
 export default {
   input: 'dist/esm/index.js',
+  context: 'null',
+  moduleContext: 'null',
   output: {
     file: 'dist/plugin.js',
     format: 'iife',
@@ -11,6 +13,7 @@ export default {
     },
     sourcemap: true,
   },
+
   plugins: [
     nodeResolve({
       // allowlist of dependencies to bundle in

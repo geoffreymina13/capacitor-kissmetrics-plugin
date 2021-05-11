@@ -1,4 +1,4 @@
-package com.hecticapp.plugins.kissmetrics;
+package com.hecticapp.capacitor.kissmetrics;
 
 import android.util.Log;
 
@@ -19,13 +19,13 @@ import java.util.List;
 import java.util.Map;
 
 @NativePlugin
-public class KissmetricsPlugin extends Plugin {
+public class Kissmetrics extends Plugin {
 
     private static String tag = "KMPlugin";
 
     @Override()
     public void load() {
-        System.out.println("Loading the KMPlugin");
+        Log.d(tag,"Loading Kissmetrics plugin");
         super.load();
     }
 

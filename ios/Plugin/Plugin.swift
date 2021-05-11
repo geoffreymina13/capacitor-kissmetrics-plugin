@@ -3,7 +3,7 @@ import Capacitor
 import KISSmetrics_iOS_SDK
 
 
-@objc(KissmetricsPlugin)
+@objc(Kissmetrics)
 public class Plugin: CAPPlugin {
 
     @objc func initialize(_ call: CAPPluginCall) {
